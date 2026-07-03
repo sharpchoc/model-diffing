@@ -1,0 +1,16 @@
+torch>=2.3.0
+transformers>=4.47.0
+accelerate>=0.34.0
+peft>=0.10.0
+datasets>=2.20.0
+huggingface_hub>=0.24.0
+openai>=1.30.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+tqdm
+
+# Install flash-attn separately AFTER torch (optional, ~2x throughput on A100/H100):
+# pip install flash-attn --no-build-isolation
+
+# Install umap-learn for UMAP projections in diagnostics.py (optional):
+# pip install umap-learn
