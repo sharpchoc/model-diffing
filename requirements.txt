@@ -5,6 +5,7 @@ peft>=0.10.0
 datasets>=2.20.0
 huggingface_hub>=0.24.0
 openai>=1.30.0
+anthropic>=0.40.0
 numpy>=1.26.0
 matplotlib>=3.8.0
 tqdm
